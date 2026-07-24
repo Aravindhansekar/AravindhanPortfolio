@@ -1,0 +1,19 @@
+Portfolio Live URL
+==================
+https://brewpage.app/aravindhan/QpjTFxMdDI
+
+Hosted on: BrewPage (free static hosting)
+Expires: ~30 days (can be extended by re-uploading)
+
+Owner Token (save this to update/delete your site):
+B6tVN9I4QKMF6SiU7mVGex0wcm3CLOyb
+
+To update the live site later, run from PowerShell:
+curl.exe -X PUT "https://brewpage.app/api/sites/aravindhan/QpjTFxMdDI" -H "User-Agent: AravindhanPortfolio/1.0" -H "X-Owner-Token: B6tVN9I4QKMF6SiU7mVGex0wcm3CLOyb" -F "archive=@c:\Aravindhan Portfolio\portfolio-deploy.zip"
+
+For permanent free hosting (recommended):
+1. Install Git: https://git-scm.com/download/win
+2. Create GitHub repo and push the docs/ folder
+3. Enable GitHub Pages in repo Settings
+
+Or drag the docs/ folder to https://app.netlify.com/drop
